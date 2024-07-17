@@ -1,5 +1,4 @@
 import Authentication from "../features/auth";
-import Detail from "../features/detail/movie-detail";
 import Home from "../features/home";
 import Layout from "../component/layout";
 import Movie from "../features/movie";

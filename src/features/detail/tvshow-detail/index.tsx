@@ -1,4 +1,3 @@
-import { useMovieDetails } from "../../../hooks/movie/useMovieDetails";
 import { useParams } from "react-router-dom";
 import { useTvShowDetails } from "../../../hooks/tvshow/useTvShowDetails";
 
