@@ -1,5 +1,3 @@
-import { getMovieDetails, getTvShow } from "../../services";
-
 import { getTvShowDetails } from "../../services";
 import { useQuery } from "react-query";
 

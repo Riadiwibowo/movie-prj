@@ -4,19 +4,6 @@ import { TvShow as TvShowType } from "../../services/tv-show/type";
 import { useQuery } from "../../hooks/useQuery";
 import { useTvShow } from "../../hooks/tvshow/useTvShow";
 
-// const [popularTvshow, setTvShow] = useState<ResponseMovie>();
-// useEffect(() => {
-//   fetchTvShow();
-// }, []);
-
-// const fetchTvShow = async () => {
-//   try {
-//     const response = await getTvShow();
-//     setTvShow(response);
-//   } catch (error) {
-//     console.log(error);
-//   }
-// };
 const TvShow = () => {
   const query = useQuery();
   const page = (query.get("page") !== null ? query.get("page") : 1) as string;
