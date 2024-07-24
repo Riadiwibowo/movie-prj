@@ -1,6 +1,5 @@
-import { ResponseTvShow, TvShow } from "./type";
-
 import API from "../axiosWithConfig";
+import { ResponseTvShow } from "./type";
 
 const getTvShow = async (page: string) => {
   try {
